@@ -42,7 +42,7 @@ public class ListarClienteActivity extends AppCompatActivity {
     private ArrayList<String> listaDeCliente(){
         ArrayList<String> clientes =  new ArrayList<>();
         clientes.add("Carlos Drummond de Andrade");
-        clientes.add("Manuel Bandeira");
+        clientes.add("Fernanda Rachel Del Bel");
         clientes.add("Olavo Bilac");
         clientes.add("Vinícius de Moraes");
         clientes.add("Cecília Meireles");

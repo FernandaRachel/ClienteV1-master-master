@@ -50,6 +50,10 @@ public class Cliente implements Serializable {
         this.email = email;
     }
 
+    public String getImagem(){
+        String foto = this.email.replace('@', '_');
+        return foto.replace('.', '_');
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
